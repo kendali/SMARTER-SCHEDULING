@@ -1,0 +1,24 @@
+
+.bg-top{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.cr{
+    background-color: var(--main-color);
+    width: 500px;
+    height: 300px;
+    border-radius: 50%;
+    position: absolute;
+    top: -200px;
+    z-index: 0;
+    
+}
+
+
+
+.phone-number{
+    padding: 0 10px;
+    border-right: 2px solid var(--main-color);
+}

@@ -1,0 +1,6 @@
+.btn-main{
+    background-color: var(--main-color);
+    text-decoration: none;
+    color: var(--white);
+    padding: 8px 30px;
+}
