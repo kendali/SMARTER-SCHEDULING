@@ -3,7 +3,7 @@ import Feature from "./Feature"
 
 function Features() {
   return (
-    <div className="features container mt-5 py-5 d-flex flex-column flex-lg-row gap-5 justify-content-evenly gap-2">
+    <div className="features container mt-5 py-5 d-flex flex-column flex-lg-row gap-5 justify-content-between gap-2">
       <div className="feature">
         <div className="feature-title">
             <span className="display-4 fw-medium">14M+</span>

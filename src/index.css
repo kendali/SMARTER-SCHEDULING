@@ -1,5 +1,8 @@
 
-
+#root{
+    height: 30000vh;
+    font-family: 'Rubik', sans-serif;
+}
 
 :root{
     --gray-color:  #CFCFD3 ;
@@ -19,7 +22,9 @@ a{
 .color-main{
     color: var(--main-color);
 }
-
+.bg-main{
+    background-color: var(--main-color);
+}
 .btn-outline-main{
     border: 1px solid var(--main-color);
     text-decoration: none;
@@ -27,7 +32,9 @@ a{
     transition: .3s;
 }
 
-
+.color-third{
+    color: var(--third-color);
+}
 .btn-outline-main:hover{
     background-color: var(--main-color);
     /* border: 1px solid var(-  -white); */

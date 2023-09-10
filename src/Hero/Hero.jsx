@@ -5,8 +5,8 @@ import './Hero.css'
 function Hero() {
   return (
     <div className="hero container py-5">
-        <div className="row align-items-center">
-            <div className="col-md-6 hero-text">
+        <div className="row align-items-center gap-3">
+            <div className="col-md-7 hero-text">
                 <div className="hero-text-header">
                     <h1 className="display-1 fw-semibold">
                         SMARTER  <br />
@@ -21,11 +21,11 @@ function Hero() {
                 </div>
                 <div className="hero-text-footer">
                     <Button btnTitle='Get Started' />
-                    <i class="fa-solid fa-angles-right btn-outline-main p-3 rounded-pill mx-1"></i>
+                    <a href="#d"><i class="fa-solid fa-angles-right btn-outline-main p-3 rounded-pill mx-1 color-main"></i></a>
                 </div>
             </div>
-            <div className="col-md-6 hero-image">
-                <img src="https://img.freepik.com/free-vector/flat-man-checking-giant-check-list-background_23-2148091572.jpg?w=740&t=st=1694271378~exp=1694271978~hmac=7b5b9ce24e5c8c42ebd2332c8b3271325dba9a01c04d1ffa03ed42c034cccfcc" alt="" />
+            <div className="col-md-4 hero-image">
+                <img src="https://ucarecdn.com/4c2e57f9-2b7c-4315-91d3-fbc57838733d/undraw_reminder_re_fe15.svg" alt="Hero" className="img-fluid" />
             </div>
         </div>
         <hr className="border border-dark border-1 mt-5"/>
