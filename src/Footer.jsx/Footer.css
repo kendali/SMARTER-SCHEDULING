@@ -1,0 +1,41 @@
+
+.footer-content{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    z-index: 0;
+}
+
+.cr-bottom{
+    background-color: var(--main-color);
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    z-index: 0;
+    clip-path: circle(50% at 50% 100%);
+    margin: 0 auto;
+}
+
+.tsko{
+    z-index: 2000;
+    position: absolute;
+    bottom: -230px;
+    text-align: center;
+    color: var(--white);
+}
+
+.footer-nav{
+    z-index: 2000;
+    position: relative;
+    
+}
+
+.link{
+    cursor: pointer;
+}
+
+@media (min-width: 992px){
+    .footer-nav{
+        bottom: -190px;
+    }
+}

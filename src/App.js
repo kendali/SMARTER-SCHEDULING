@@ -1,8 +1,10 @@
 import Features from './Features/Features';
 import Header from './Header/Header'
 import Hero from './Hero/Hero';
-import Quote from './Quote/Quote';
+import FirstTask from './FirstTask/FirstTask';
 import Services from './Services/Services';
+import SecondTask from './SecondTask/SecondTask';
+import Footer from './Footer.jsx/Footer';
 
 
 
@@ -20,9 +22,13 @@ function App() {
       <main className='mt-5'>
         <Hero />
         <Features />
-        <Quote />
+        <FirstTask />
         <Services />
+        <SecondTask />
       </main>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }
