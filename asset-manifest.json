@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/SMARTER-SCHEDULING/static/css/main.3e398135.css",
-    "main.js": "/SMARTER-SCHEDULING/static/js/main.54f29734.js",
+    "main.js": "/SMARTER-SCHEDULING/static/js/main.258826e8.js",
     "static/js/787.12c26a72.chunk.js": "/SMARTER-SCHEDULING/static/js/787.12c26a72.chunk.js",
     "index.html": "/SMARTER-SCHEDULING/index.html",
     "main.3e398135.css.map": "/SMARTER-SCHEDULING/static/css/main.3e398135.css.map",
-    "main.54f29734.js.map": "/SMARTER-SCHEDULING/static/js/main.54f29734.js.map",
+    "main.258826e8.js.map": "/SMARTER-SCHEDULING/static/js/main.258826e8.js.map",
     "787.12c26a72.chunk.js.map": "/SMARTER-SCHEDULING/static/js/787.12c26a72.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3e398135.css",
-    "static/js/main.54f29734.js"
+    "static/js/main.258826e8.js"
   ]
 }
