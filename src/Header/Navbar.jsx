@@ -13,7 +13,7 @@ function Navbar() {
         <li key={item.id} className='nav-item'><a href="#d" className='nav-link fs-5 fw-semibold'>{item.items}</a></li>
     ))
     return (
-        <nav className="navbar navbar-expand-lg py-5 py-xl-0">
+        <nav className="navbar navbar-expand-lg py-5 py-xl-0 mt-3">
             <div className="container-fluid">
                 <a className="navbar-brand fs-1" href="#h">
                     <i class="fa-brands fa-usps color-main"></i>
